@@ -1,5 +1,5 @@
 #FROM php:7.3-apache
-FROM ubunu:18.04
+FROM ubuntu:18.04
 
 LABEL maintainer="Enrique Quintana <equintana@nerviaconsultores.com>"
 
