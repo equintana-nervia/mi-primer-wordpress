@@ -24,6 +24,6 @@ RUN apt-get update && \
 
 #COPY src/ /var/www/html/
  
-EXPOSE 80
+EXPOSE 80  
 
 ENTRYPOINT ["/usr/sbin/apachectl", "-D", "FOREGROUND"]    
