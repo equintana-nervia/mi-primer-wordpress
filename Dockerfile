@@ -23,7 +23,7 @@ RUN apt-get update && \
 #RUN mv composer /usr/local/bin/
 
 #COPY src/ /var/www/html/
-
+ 
 EXPOSE 80
 
 ENTRYPOINT ["/usr/sbin/apachectl", "-D", "FOREGROUND"]    
